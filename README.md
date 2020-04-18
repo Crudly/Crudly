@@ -22,6 +22,12 @@ Generate app key by executing this inside the project directory:
 php artisan key:generate --ansi
 ```
 
+Create database by making empty `database.sqlite` file in the database directory. Run migrations:
+
+```
+php artisan migrate
+```
+
 Serve from the `public` directory using your web server or do this to make PHP serve it on `http://localhost:8000`:
 
 ```
